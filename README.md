@@ -1,6 +1,6 @@
 # Lex.AO
 
-Bem-vindo ao repositório do Lex.AO! Este é um site de documentação que utiliza o Docusaurus como framework para servir as leis de Angola em um formato de documentação fácil de ler e pesquisar.
+Bem-vindo ao repositório do Lex.AO! Este é um site de documentação que utiliza o [Docusaurus](https://docusaurus.io/) como framework para servir as leis de Angola em um formato de documentação fácil de ler e pesquisar.
 
 ## 📚 Sobre o Projeto
 
@@ -11,7 +11,7 @@ O Lex.AO tem como objetivo facilitar o acesso às leis de Angola, tornando-as di
 1.  Clone este repositório:
 
 
-`git clone https://github.com/yourusername/lex-ao.git`
+`git clone https://github.com/pixelinfinito/lex-ao.git`
 
 2.  Instale as dependências:
 
@@ -25,11 +25,11 @@ Agora você pode acessar o site localmente em `http://localhost:3000`.
 
 ## 🤝 Contribuindo
 
-Agradecemos a sua contribuição! Por favor, leia o [CONTRIBUTING.md](https://chat.openai.com/CONTRIBUTING.md) para aprender sobre como contribuir com o projeto e as diretrizes que devem ser seguidas.
+Agradecemos a sua contribuição! Por favor, leia o [CONTRIBUTING.md](#) para aprender sobre como contribuir com o projeto e as diretrizes que devem ser seguidas.
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://chat.openai.com/LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](#) para mais detalhes.
 
 ---
 ### English Version
@@ -60,8 +60,8 @@ Now you can access the website locally at `http://localhost:3000`.
 
 ## 🤝 Contributing
 
-We appreciate your contribution! Please read the [CONTRIBUTING.md](https://chat.openai.com/CONTRIBUTING.md) to learn about how to contribute to the project and the guidelines that should be followed.
+We appreciate your contribution! Please read the [CONTRIBUTING.md](#) to learn about how to contribute to the project and the guidelines that should be followed.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://chat.openai.com/LICENSE.md) file for more details.
+This project is licensed under the MIT License - see the [LICENSE.md](#) file for more details.
