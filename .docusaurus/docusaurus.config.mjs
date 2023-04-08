@@ -9,8 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "pixelinfinito",
+  "projectName": "lex-ao",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -43,7 +43,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "Lex.AO",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
@@ -61,7 +61,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/pixelinfinito/lex-ao",
           "label": "GitHub",
           "position": "right"
         }

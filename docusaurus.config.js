@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Lex.AO',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -78,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/pixelinfinito/lex-ao',
             label: 'GitHub',
             position: 'right',
           },
