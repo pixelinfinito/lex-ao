@@ -1,67 +1,41 @@
-# Lex.AO
+# Website
 
-Bem-vindo ao repositório do Lex.AO! Este é um site de documentação que utiliza o [Docusaurus](https://docusaurus.io/) como framework para servir as leis de Angola em um formato de documentação fácil de ler e pesquisar.
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## 📚 Sobre o Projeto
+### Installation
 
-O Lex.AO tem como objetivo facilitar o acesso às leis de Angola, tornando-as disponíveis em um formato mais amigável, de fácil leitura e pesquisa. O site foi construído utilizando o Docusaurus, um framework de documentação popular e altamente customizável.
+```
+$ yarn
+```
 
-## 💻 Instalação e Execução
+### Local Development
 
-1.  Clone este repositório:
+```
+$ yarn start
+```
 
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-`git clone https://github.com/pixelinfinito/lex-ao.git`
+### Build
 
-2.  Instale as dependências:
+```
+$ yarn build
+```
 
-`cd lex-ao npm install`
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-3.  Inicie o servidor de desenvolvimento:
+### Deployment
 
-`npm run start`
+Using SSH:
 
-Agora você pode acessar o site localmente em `http://localhost:3000`.
+```
+$ USE_SSH=true yarn deploy
+```
 
-## 🤝 Contribuindo
+Not using SSH:
 
-Agradecemos a sua contribuição! Por favor, leia o [CONTRIBUTING.md](#) para aprender sobre como contribuir com o projeto e as diretrizes que devem ser seguidas.
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-## 📜 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](#) para mais detalhes.
-
----
-### English Version
-
-# Lex.AO
-
-Welcome to the Lex.AO repository! This is a documentation site that uses Docusaurus as its framework to serve Angola laws in a documentation form easy to read and search.
-
-## 📚 About the Project
-
-Lex.AO aims to facilitate access to Angola laws, making them available in a more user-friendly, easy-to-read, and searchable format. The site is built using Docusaurus, a popular and highly customizable documentation framework.
-
-## 💻 Installation and Running
-
-1.  Clone this repository:
-
-`git clone https://github.com/pixelinfinito/lex-ao.git`
-
-2.  Install dependencies:
-
-`cd lex-ao npm install`
-
-3.  Start the development server:
-
-`npm run start`
-
-Now you can access the website locally at `http://localhost:3000`.
-
-## 🤝 Contributing
-
-We appreciate your contribution! Please read the [CONTRIBUTING.md](#) to learn about how to contribute to the project and the guidelines that should be followed.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](#) file for more details.
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
