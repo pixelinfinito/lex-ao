@@ -46,7 +46,7 @@ Lex.AO aims to facilitate access to Angola laws, making them available in a more
 
 1.  Clone this repository:
 
-`git clone https://github.com/yourusername/lex-ao.git`
+`git clone https://github.com/pixelinfinito/lex-ao.git`
 
 2.  Install dependencies:
 
