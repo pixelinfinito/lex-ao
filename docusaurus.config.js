@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Lex.AO',
-  tagline: 'Dinosaurs are cool',
+  title: 'Lex Angola',
+  tagline: 'O Lex Angola é uma plataforma digital que visa facilitar o acesso às leis de Angola. Ao disponibilizar informações jurídicas em um formato fácil de ler e pesquisar, a plataforma se torna uma ferramenta valiosa para estudantes, advogados, empresários e qualquer pessoa que queira conhecer seus direitos e obrigações.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `${new Date().getFullYear()} © Criado em 🇦🇴 por <a href="https://pixel.ao">Pixel Infinito</a>`,
       },
       prism: {
         theme: lightCodeTheme,

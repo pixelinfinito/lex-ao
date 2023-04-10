@@ -4,10 +4,10 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Lex.AO",
-  "tagline": "Dinosaurs are cool",
+  "title": "Lex Angola",
+  "tagline": "O Lex Angola é uma plataforma digital que visa facilitar o acesso às leis de Angola. Ao disponibilizar informações jurídicas em um formato fácil de ler e pesquisar, a plataforma se torna uma ferramenta valiosa para estudantes, advogados, empresários e qualquer pessoa que queira conhecer seus direitos e obrigações.",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://lex.ao",
   "baseUrl": "/",
   "organizationName": "pixelinfinito",
   "projectName": "lex-ao",
@@ -111,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "2023 © Criado em 🇦🇴 por <a href=\"https://pixel.ao\">Pixel Infinito</a>"
     },
     "prism": {
       "theme": {
