@@ -12,13 +12,13 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className="hero__title">⚖️ Bem-vindo ao {siteConfig.title}!</h1>
+        <p className="text--center">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Explorar 🧭
           </Link>
         </div>
       </div>
@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Direito Angolano: Acesso Fácil e Gratuito com o Lex Angola`}
+      description="Tenha acesso fácil e gratuito ao Direito Angolano com a plataforma Lex Angola. Informações jurídicas claras e atualizadas para empresarios, advogados e cidadãos.  <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
