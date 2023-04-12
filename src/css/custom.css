@@ -30,6 +30,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+html[data-theme='dark'] .navbar .navbar__logo {
+  content: url(/static/img/logo-white.svg)
+  }
+
 .footer {
   --ifm-footer-background-color: #590D22;
   --ifm-link-color: #ff889e;
