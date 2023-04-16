@@ -38,7 +38,9 @@ def process_directory(directory_path):
                             json.dump(data, json_file, indent=4)
 
 def main():
-    docs_directory = "/docs"
+    initial_script_path = Path(os.path.abspath(__file__)).parent
+    project_root = initial_script_path.parent
+    docs_directory = project_root / "docs"
     if os.path.isdir(docs_directory):
         process_directory(docs_directory)
     else:
@@ -46,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
