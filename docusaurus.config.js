@@ -3,6 +3,8 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 require('dotenv').config();
 
 /** @type {import('@docusaurus/types').Config} */
@@ -33,6 +35,11 @@ const config = {
     locales: ['en','pt'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -44,6 +51,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -61,6 +70,13 @@ const config = {
         },
       }),
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+    },
   ],
 
   themeConfig:
@@ -88,6 +104,21 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      mermaid: {
+        theme: {light: 'base', dark: 'neutral'},
+        options: {
+          themeVariables: {
+            primaryColor: '#c9184a', // Main shade of red
+            primaryTextColor: '#FFFFFF', // White text color for contrast with primary color
+            textColor: '#333333', // Dark gray for general text
+            fontSize: '16px', // Font size
+            primaryBorderColor: '#98142d', // Slightly darker shade of red for borders
+            lineColor: '#e85a70', // Lighter shade of red for lines
+            secondaryColor: '#5c2a3c', // Dark red as secondary color
+            tertiaryColor: '#E8E8E8' // Light gray as tertiary color
+          },          
+        },
       },
       footer: {
         style: 'dark',
